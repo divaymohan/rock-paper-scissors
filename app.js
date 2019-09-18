@@ -19,7 +19,7 @@ function convertToword(letter) {
   }
 }
 function getComputerChoice() {
-  const choices = ["r", "p", "s"];
+  const choices = ["r", "p","s"];
   const random_number = Math.floor(Math.random() * 3);
   return choices[random_number];
 }
